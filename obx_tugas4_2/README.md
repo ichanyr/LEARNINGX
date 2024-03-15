@@ -1,16 +1,7 @@
 # obx_tugas4_2
 
-A new Flutter project.
+## first screen
 
-## Getting Started
+<img width="197" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/918bae96-9dfe-4098-8c40-6296f7ca205b">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
