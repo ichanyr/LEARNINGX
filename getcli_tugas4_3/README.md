@@ -1,16 +1,17 @@
 # getcli_tugas4_3
 
-A new Flutter project.
+## Halaman Login
+- Pada button LOGIN mengarah ke halaman Profil
+- Pada textbutton AYO DAFTAR mengarah ke halaman Register
+<img width="194" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/20a1f972-63c2-4e7e-8596-eef7367da024">
 
-## Getting Started
+## Halaman Register
+- Pada button REGISTER mengarah ke halaman Login
+- Pada textbutton MASUK SINI mengarah ke halaman Login
+<img width="192" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/6058288c-f0fa-4102-9816-98b5c21d3dfa">
 
-This project is a starting point for a Flutter application.
+## Halaman Profi
+- Terdapat fitur logout yang mengarah ke halaman Login
+<img width="193" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/a093c813-160c-4b6f-b7c6-7103e372537c">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
