@@ -1,15 +1,14 @@
-class MenuListModel {
+class FilterModel {
   final String image;
-
   final String title;
 
-  MenuListModel({
+  FilterModel({
     required this.title,
     required this.image,
   });
 
-  factory MenuListModel.fromJson(Map<String, dynamic> json) {
-    return MenuListModel(
+  factory FilterModel.fromJson(Map<String, dynamic> json) {
+    return FilterModel(
       image: json['strMealThumb'],
       title: json['strMeal'],
     );
