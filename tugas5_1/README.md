@@ -1,16 +1,7 @@
 # tugas5_1
 
-A new Flutter project.
+<img width="197" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/567a18d9-7086-403d-9d22-5f85374ac2b0">
+<img width="192" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/74456b3b-7c0b-4bbb-94ea-ec85a2ad80e6">
+<img width="191" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/cc81b4f7-5b0e-4b9e-a000-0adfc6fbc94a">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
