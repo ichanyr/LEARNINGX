@@ -7,7 +7,7 @@ class AddController extends GetxController {
   final TextEditingController title = TextEditingController();
   final TextEditingController content = TextEditingController();
 
-  Future<void> onSubmit() async {
+  Future<void> onSubmit(String text1, String text2) async {
     try {
       final response = await http.post(
         Uri.parse("http://192.168.43.66/flutter/note_app/create.php"),

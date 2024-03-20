@@ -94,13 +94,14 @@ class Add extends StatelessWidget {
                 ),
                 child: Text(
                   "Submit",
-                  style: TextStyle(color: Colors.white),
+                  // style: TextStyle(color: Colors.white),
                 ),
                 onPressed: () {
                   //validate
                   if (_formKey.currentState!.validate()) {
                     //send data to database with this method
-                    controller.onSubmit();
+                    controller.onSubmit(
+                        controller.title.text, controller.content.text);
                   }
                 },
               )
