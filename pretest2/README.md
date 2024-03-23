@@ -1,16 +1,13 @@
 # pretest2
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Membuat tampilan profil yang mengambil data dari API https://randomuser.me/api/
+Berikut data yang diambil :
+1. firstname
+2. lastname
+3. gender
+4. city
+5. country
+6. picture
+7. 
+## Hasil
+<img width="192" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/35ef8659-f011-4678-abbd-3df2c7708174">
