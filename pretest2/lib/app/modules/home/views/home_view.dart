@@ -149,27 +149,8 @@ class HomeView extends StatelessWidget {
                           style: GoogleFonts.poppins()
                               .copyWith(color: Colors.grey),
                         ),
-                        SizedBox(width: 16),
+                        SizedBox(width: 80),
                         Text(controller.profil.value.email,
-                            style: GoogleFonts.poppins()
-                                .copyWith(color: Colors.grey))
-                      ],
-                    ),
-                    SizedBox(height: 8),
-                    Row(
-                      children: [
-                        Icon(
-                          Icons.email,
-                          color: Colors.grey,
-                        ),
-                        SizedBox(width: 16),
-                        Text(
-                          'Email',
-                          style: GoogleFonts.poppins()
-                              .copyWith(color: Colors.grey),
-                        ),
-                        SizedBox(width: 16),
-                        Text('Email',
                             style: GoogleFonts.poppins()
                                 .copyWith(color: Colors.grey))
                       ],
@@ -187,7 +168,7 @@ class HomeView extends StatelessWidget {
                           style: GoogleFonts.poppins()
                               .copyWith(color: Colors.grey),
                         ),
-                        SizedBox(width: 16),
+                        SizedBox(width: 230),
                         Text(controller.profil.value.gender,
                             style: GoogleFonts.poppins()
                                 .copyWith(color: Colors.grey))
@@ -206,7 +187,7 @@ class HomeView extends StatelessWidget {
                           style: GoogleFonts.poppins()
                               .copyWith(color: Colors.grey),
                         ),
-                        SizedBox(width: 16),
+                        SizedBox(width: 225),
                         Text(controller.profil.value.city,
                             style: GoogleFonts.poppins()
                                 .copyWith(color: Colors.grey))
@@ -225,7 +206,7 @@ class HomeView extends StatelessWidget {
                           style: GoogleFonts.poppins()
                               .copyWith(color: Colors.grey),
                         ),
-                        SizedBox(width: 16),
+                        SizedBox(width: 214),
                         Text(controller.profil.value.country,
                             style: GoogleFonts.poppins()
                                 .copyWith(color: Colors.grey))
