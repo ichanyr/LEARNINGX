@@ -10,4 +10,5 @@ Berikut data yang diambil :
 6. picture
    
 ## Hasil
-<img width="192" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/35ef8659-f011-4678-abbd-3df2c7708174">
+<img width="190" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/71c5d012-497f-4d06-ae70-8685dff0dcdd">
+
