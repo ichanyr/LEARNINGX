@@ -1,6 +1,4 @@
 # tugas6_1
 
 
-
-Uploading main.dart - tugas6_1 - Visual Studio Code 2024-03-26 20-20-39.mp4…
-
+<img width="191" alt="image" src="https://github.com/ichanyr/LEARNINGX/assets/114141633/ec759567-7572-4aa9-b002-2a474802726c">
