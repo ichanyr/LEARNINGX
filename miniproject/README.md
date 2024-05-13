@@ -1,4 +1,5 @@
 Mini Project
+File apk ada di folder build\app\outputs\flutter-apk\app-release.ap
 
 1. Tampilan Splash Screen
 ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/50fb1c01-76b3-4cf7-848f-95117258a57e)
