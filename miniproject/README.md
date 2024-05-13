@@ -1,7 +1,7 @@
 Mini Project
 
 1. Tampilan Splash Screen
-   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/1c3ede1d-79f8-488e-a5b8-8b00b4e08eaf)
+![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/50fb1c01-76b3-4cf7-848f-95117258a57e)
 
 2. Tampilan Login
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/00de8993-9886-4269-8148-e35e1e60359d)
