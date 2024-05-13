@@ -1,16 +1,14 @@
-# miniproject
+Mini Project
 
-A new Flutter project.
+1. Tampilan Splash Screen
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/1c3ede1d-79f8-488e-a5b8-8b00b4e08eaf)
 
-## Getting Started
+2. Tampilan Login
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/00de8993-9886-4269-8148-e35e1e60359d)
 
-This project is a starting point for a Flutter application.
+3. Tampilan Register
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/cb513818-38ac-4220-9f51-02cdcf92a653)
 
-A few resources to get you started if this is your first Flutter project:
+4. Tampilan Home
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/0d8458ec-f883-45f2-a27e-0fcd2711f54c)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
