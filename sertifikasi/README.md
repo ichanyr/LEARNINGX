@@ -5,11 +5,15 @@
 
 3. Tampilan Login
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/751b5d01-efc6-4ff7-8092-6f57dbf94fc5)
+   ![Uploading image.png…]()
+
 
 5. Tampilan Register
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/c7a90466-41e3-48dc-85ed-1c55a47d0d90)
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/358df042-53d7-447b-88a5-08253523f523)
 
-6. Tampilan Home
-   IconButton Logout mengarah ke Login Screen
+
+7. Tampilan Home
+   - IconButton Logout mengarah ke Login Screen
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/4b19289e-3757-4df2-83ef-c447a5cfd3b9)
 
