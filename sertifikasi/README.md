@@ -10,3 +10,6 @@
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/c7a90466-41e3-48dc-85ed-1c55a47d0d90)
 
 6. Tampilan Home
+   IconButton Logout mengarah ke Login Screen
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/4b19289e-3757-4df2-83ef-c447a5cfd3b9)
+
