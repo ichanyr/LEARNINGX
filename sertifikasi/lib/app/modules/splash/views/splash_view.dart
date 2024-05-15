@@ -23,7 +23,7 @@ class SplashView extends GetView<SplashController> {
               height: 16,
             ),
             Text(
-              'HELLO FELLAS.',
+              'My Collection.',
               style: GoogleFonts.poppins(
                   fontSize: 30, fontWeight: FontWeight.w500),
             ),
@@ -31,8 +31,7 @@ class SplashView extends GetView<SplashController> {
               height: 8,
             ),
             Text(
-              '''Temukan segala jenis bunga 
-dari berbagai belahan dunia!''',
+              '''Find your favorite books here.''',
               style: GoogleFonts.poppins(
                   fontSize: 12, fontWeight: FontWeight.w500),
             )

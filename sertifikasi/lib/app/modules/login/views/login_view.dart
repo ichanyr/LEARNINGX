@@ -77,7 +77,23 @@ class LoginView extends GetView<LoginController> {
               SizedBox(height: 20),
               CustomButton(
                 text: 'Login',
-                onPressed: () {},
+                onPressed: () {
+                  if (controller.addressController.text.isEmpty ||
+                      controller.passwordController.text.isEmpty) {
+                    Get.snackbar(
+                      'Error',
+                      'Please fill all fields',
+                      snackPosition: SnackPosition.TOP,
+                      duration: Duration(seconds: 2),
+                      margin: EdgeInsets.all(12),
+                    );
+                  } else {
+                    controller.login(
+                      controller.addressController.text,
+                      controller.passwordController.text,
+                    );
+                  }
+                },
               ),
               SizedBox(height: 8),
               Padding(

@@ -66,7 +66,7 @@ class RegisterView extends GetView<RegisterController> {
           CustomizedTextfield(
             myController: controller.passwordController,
             hintText: "Confirm Password",
-            isPassword: true,
+            isPassword: false,
           ),
           SizedBox(height: 20),
           CustomButton(

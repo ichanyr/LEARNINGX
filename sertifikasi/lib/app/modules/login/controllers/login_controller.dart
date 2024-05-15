@@ -34,7 +34,7 @@ class LoginController extends GetxController {
         Get.snackbar(
           'Error',
           'Username or password cannot be empty',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           duration: Duration(seconds: 2),
           margin: EdgeInsets.all(12),
         );
@@ -62,7 +62,7 @@ class LoginController extends GetxController {
         Get.snackbar(
           'Error',
           'User data not found',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           duration: Duration(seconds: 2),
           margin: EdgeInsets.all(12),
         );
@@ -73,7 +73,7 @@ class LoginController extends GetxController {
         Get.snackbar(
           'Error',
           'No user found for that email',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           duration: Duration(seconds: 2),
           margin: EdgeInsets.all(12),
         );
@@ -81,7 +81,7 @@ class LoginController extends GetxController {
         Get.snackbar(
           'Error',
           'Wrong password provided for that user',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           duration: Duration(seconds: 2),
           margin: EdgeInsets.all(12),
         );
@@ -89,7 +89,7 @@ class LoginController extends GetxController {
         Get.snackbar(
           'Error',
           'Failed to sign in: ${e.message}',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
           duration: Duration(seconds: 2),
           margin: EdgeInsets.all(12),
         );
@@ -99,7 +99,7 @@ class LoginController extends GetxController {
       Get.snackbar(
         'Error',
         'An unexpected error occurred: $e',
-        snackPosition: SnackPosition.BOTTOM,
+        snackPosition: SnackPosition.TOP,
         duration: Duration(seconds: 2),
         margin: EdgeInsets.all(12),
       );

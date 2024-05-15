@@ -1,7 +1,95 @@
+// import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:flutter/material.dart';
+// import 'package:get/get.dart';
+// import '../../../routes/app_pages.dart';
+
+// class RegisterController extends GetxController {
+//   FirebaseAuth _auth = FirebaseAuth.instance;
+//   FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+//   // Text editing controllers
+//   TextEditingController usernameController = TextEditingController();
+//   TextEditingController nameController = TextEditingController();
+//   TextEditingController addressController = TextEditingController();
+//   TextEditingController phoneNumberController = TextEditingController();
+//   TextEditingController passwordController = TextEditingController();
+//   TextEditingController confirmPasswordController = TextEditingController();
+
+//   void register() async {
+//     // Ambil nilai dari setiap text editing controller
+//     String username = usernameController.text.trim();
+//     String name = nameController.text.trim();
+//     String address = addressController.text.trim();
+//     String phoneNumber = phoneNumberController.text.trim();
+//     String password = passwordController.text;
+
+//     // Buat objek Map yang berisi data pengguna
+//     Map<String, dynamic> userData = {
+//       'username': username,
+//       'name': name,
+//       'address': address,
+//       'phoneNumber': phoneNumber,
+//     };
+
+//     try {
+//       // Buat pengguna baru di Firebase Authentication
+//       UserCredential userCredential =
+//           await _auth.createUserWithEmailAndPassword(
+//         email: address,
+//         password: password,
+//       );
+
+//       // Ambil ID pengguna yang baru dibuat
+//       String userId = userCredential.user!.uid;
+
+//       // Simpan data pengguna ke Firestore
+//       await _firestore.collection('users').doc(userId).set(userData);
+
+//       // Tampilkan pesan sukses
+//       Get.snackbar(
+//         'Success',
+//         'User registered successfully',
+//         snackPosition: SnackPosition.BOTTOM,
+//         duration: Duration(seconds: 2),
+//         margin: EdgeInsets.all(12),
+//       );
+
+//       // Clear text editing controllers setelah pendaftaran berhasil
+//       clearControllers();
+
+//       // Navigate to login page
+//       Get.offAllNamed(Routes.LOGIN);
+//     } catch (e) {
+//       print('Error registering user: $e');
+
+//       // Tampilkan pesan error jika terjadi masalah saat pendaftaran
+//       Get.snackbar(
+//         'Error',
+//         'Failed to register user. Please try again later.',
+//         snackPosition: SnackPosition.BOTTOM,
+//         duration: Duration(seconds: 2),
+//         margin: EdgeInsets.all(12),
+//       );
+//     }
+//   }
+
+//   // Fungsi untuk mengosongkan text editing controllers
+//   void clearControllers() {
+//     usernameController.clear();
+//     nameController.clear();
+//     addressController.clear();
+//     phoneNumberController.clear();
+//     passwordController.clear();
+//     confirmPasswordController.clear();
+//   }
+// }
+
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+
 import '../../../routes/app_pages.dart';
 
 class RegisterController extends GetxController {
@@ -18,25 +106,24 @@ class RegisterController extends GetxController {
   @override
   void onClose() {
     usernameController.dispose();
+
     addressController.dispose();
     passwordController.dispose();
     confirmPasswordController.dispose();
     super.onClose();
   }
 
-  // @override
-  // void onInit() {
-  //   nameController = TextEditingController();
-  //   addressController = TextEditingController();
-  //   phoneController = TextEditingController();
-  //   super.onInit();
-  // }
+  @override
+  void onInit() {
+    usernameController = TextEditingController();
+    addressController = TextEditingController();
+    passwordController = TextEditingController();
+    super.onInit();
+  }
 
   void register() async {
     String username = usernameController.text.trim();
-
     String address = addressController.text.trim();
-
     String password = passwordController.text.trim();
     String confirmPassword = confirmPasswordController.text.trim();
 
@@ -65,8 +152,8 @@ class RegisterController extends GetxController {
       userId = userCredential.user!.uid;
       await addData(
         userId,
-        address,
         username,
+        address,
       );
       Get.snackbar('Berhasil', 'Pengguna berhasil dibuat');
       userCredential.user!.sendEmailVerification();
@@ -86,6 +173,7 @@ class RegisterController extends GetxController {
         },
       );
 
+      usernameController.clear();
       addressController.clear();
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
@@ -101,10 +189,10 @@ class RegisterController extends GetxController {
     }
   }
 
-  Future<void> addData(String userId, String address, String username) async {
+  Future<void> addData(String userId, String name, String address) async {
     try {
       await FirebaseFirestore.instance.collection('User').doc(userId).set({
-        'username': username,
+        'name': name,
         'address': address,
       });
     } catch (e) {
