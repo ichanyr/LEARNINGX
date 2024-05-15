@@ -1,4 +1,5 @@
 # sertifikasi
+Link googledrive: https://drive.google.com/file/d/1v9FJjbaPx51Iv-CYJgSRZkmI3n8hyBNK/view?usp=sharing
 
 1. Tampilan Splash
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/e9279680-9120-4a8e-b6b0-13edd4105538)
