@@ -6,8 +6,7 @@
 3. Tampilan Login
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/751b5d01-efc6-4ff7-8092-6f57dbf94fc5)
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/54ba86cd-3e3e-4f77-be81-46cfd9eabbf7)
-   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/94ac310f-3c50-4d98-ace8-a8dc0c576f9d)
-
+   ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/b100038a-41f7-4301-b6a9-acb95d0a2fb4)
 
 5. Tampilan Register
    ![image](https://github.com/ichanyr/LEARNINGX/assets/114141633/c7a90466-41e3-48dc-85ed-1c55a47d0d90)
