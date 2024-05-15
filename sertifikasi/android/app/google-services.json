@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981997896271",
+    "project_id": "sertifikasi-23f55",
+    "storage_bucket": "sertifikasi-23f55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981997896271:android:5e1866ec297d230373603a",
+        "android_client_info": {
+          "package_name": "com.example.sertifikasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfqIpLuEFU3HwnKsz0ZC9vLJhJyjjo0sE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
