@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732129938065",
+    "project_id": "capstone-dbe0e",
+    "storage_bucket": "capstone-dbe0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732129938065:android:0f07a45f9b2697fcb3cd30",
+        "android_client_info": {
+          "package_name": "com.example.capstone_vocalavida"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6iqPezArPWSSmbc2P40QkAKmBNhRry54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
